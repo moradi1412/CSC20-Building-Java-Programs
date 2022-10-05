@@ -8,4 +8,14 @@ public class Rectangle {
         width = w; 
         height = h; 
     }
+    //constractor without any argument 
+    public Rectangle(){
+        width = 1; 
+        height =1; 
+    }
+
+    //getter methods 
+    public double getWeight (){
+        return width; 
+    }
 }
