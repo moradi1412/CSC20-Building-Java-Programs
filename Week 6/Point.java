@@ -13,12 +13,15 @@ public class Point
   } 
   
   public boolean equals(Object o)
-  {
+  { if ( o instanceof Point ){
      Point p = (Point) o; // type casting the object o to Point class so that we can compare the x and y
      return this.x == p.x && this.y == p.y;
   }
-  
+  return false; 
+} 
 }
+
+
 class Driver
 {
   public static void main(String[] args)
