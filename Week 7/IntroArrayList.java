@@ -6,8 +6,15 @@ public class IntroArrayList {
         ArrayList<String> names = new ArrayList<String>(); 
         names.add("Marry");
         //shifting element using index in function add 
-        names.add(0, "Alex") 
-        String [] list = new String [20]; 
+        names.add(0, "Alex") ; 
+
+        //Declaration of integer into arraylist
+        ArrayList<Integer> number = new ArrayList<Integer>(); 
+        ArrayList<Double> doublesss = new ArrayList<Double>(); 
+        ArrayList<Character> Charaters2 = new ArrayList<Character>(); 
+        ArrayList<Boolean> Boolean = new ArrayList<Boolean>(); 
+
+        
     }
     
 }
