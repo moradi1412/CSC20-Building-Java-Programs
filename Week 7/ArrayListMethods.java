@@ -23,6 +23,24 @@ public class ArrayListMethods {
             }
 
         }
+
+        myList.add("baby got your back");
+        myList.add(3,"incomplete");
+
+        //change the value at the index 
+        myList.set(0, "Hello"); 
+
+        //getting the size of the arraylist 
+        int size =  myList.size(); 
+
+        //getting the value of an index. 
+        String s = myList.get(2); 
+
+        myList.remove(1); 
+
+        
+
+        System.out.println(myList);
         
     }
     
