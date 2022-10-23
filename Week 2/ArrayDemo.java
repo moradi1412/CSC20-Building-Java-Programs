@@ -12,6 +12,11 @@ public class ArrayDemo {
         int size = 5; 
         double[] student = new double [size];  //[size of the array] 
 
+        //declaring and add vaule directly 
+        // double []student = {5.00,6.00, 7,00}
+        //single value
+        //student [0] = 8.00; 
+
         for (int i = 0; i < student.length; i++) {
             int studentCount = 1; 
             System.out.println("Enter the exam score for student" + studentCount);
