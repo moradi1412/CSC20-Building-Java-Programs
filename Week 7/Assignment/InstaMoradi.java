@@ -1,8 +1,10 @@
+package Assignment;
 import java.util.*;
 //Mohammad Javid Mordi 
 //Self grading 100% 
 
-public class InstaYourLastName {
+
+public class InstaMoradi {
    // no code here
 }
 

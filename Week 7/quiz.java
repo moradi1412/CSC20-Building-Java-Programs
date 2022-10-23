@@ -1,22 +1,34 @@
 import java.util.*;
 
 public class quiz {
-    public static void main(String[] args)
+      
+}
+
+class A
 {
-     ArrayList<Character> nums = new ArrayList<Character>();
-//initializing the arraylist
-     nums.add('a');
-     nums.add('b');
-     nums.add('f');
-     nums.add('g');
+   public void methodA()
+   {
+     System.out.println("A");
+   }
+   public void m()
+   {
+      System.out.println("In class A");
+   }
+}
+class B extends A 
+{
+  public void m()
+  { 
+     System.out.println("Inside class B");
+  }
+}
+class Driver
+{
+   public static void main(String[] args)
+   {
+     B b = new B();
+     b.m();
 
-
-    nums.remove(nums.size() - 1 ); 
-      
-      System.out.println(nums);
-     
-      
- }
-
-    
+;
+   }
 }

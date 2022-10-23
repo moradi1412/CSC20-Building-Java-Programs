@@ -1,8 +1,11 @@
 import java.util.*;
+import java.util.ArrayList; 
+
 
 
 public class ArrayListMethods {
     public static void main(String[] args) {
+        //declaration of arraylist of String 
         ArrayList<String> list = new ArrayList<String>(); 
         Scanner input = new Scanner(System.in); 
         songs(list,input); 

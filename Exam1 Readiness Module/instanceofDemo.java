@@ -1,3 +1,12 @@
+
+public class instanceofDemo{
+   public static void main(String[] args) {
+      
+   }
+
+}
+
+
 public class Plate
 {
     public void method1()
@@ -20,19 +29,19 @@ class Spoon
    }
 }
 
-class Driver
-{
-   public static void main(String[] args)
-   {
-     Object[] stuff = {new Spoon(), new Fork(), new Plate()};
-     for(int i = 0; i < stuff.length; i++)
-     {
-         stuff[i].method1();
-         Stuff[i].method2();
-         stuff[i].method3();
-     }
-   }
-}
+// class Driver
+// {
+//    public static void main(String[] args)
+//    {
+//      Object[] stuff = {new Spoon(), new Fork(), new Plate()};
+//      for(int i = 0; i < stuff.length; i++)
+//      {
+//          stuff[i].method1();
+//          Stuff[i].method2();
+//          stuff[i].method3();
+//      }
+//    }
+// }
 
 class Driver
 {
