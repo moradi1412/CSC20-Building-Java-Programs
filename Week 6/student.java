@@ -5,7 +5,7 @@ public class student {
     public student (int id){
         this.id = id; 
     }
-    public String toString() {
+    public static String toString(int i) {
         return super.toString() + "\nStudent id : " + id ; 
     }
     // public boolean equals(student s){
