@@ -1,3 +1,6 @@
+import java.sql.Array;
+import java.util.Arrays;
+
 public class RefrenceSematics {
 
 }
@@ -17,8 +20,16 @@ class PassbyRefrenceSematics
    {
     int[] a = {1,2,3,4};
     int[] b = a;
+    b[2] = 55221; 
+
     System.out.println("Array a is at the address: "+a);
     System.out.println("Array b is at the address: "+ b);
+
+    System.out.println(Arrays.toString(a));
+    System.out.println(Arrays.toString(b));
+
+
+
   }
 }
 
