@@ -1,5 +1,3 @@
-
-
 public class search_seq
 {
 
